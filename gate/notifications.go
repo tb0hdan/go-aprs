@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dustin/go-aprs"
+	"github.com/tb0hdan/go-aprs"
 	"github.com/dustin/go-broadcast"
 	"github.com/dustin/go-nma"
 	"github.com/pmylund/go-cache"

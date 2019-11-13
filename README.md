@@ -1,11 +1,14 @@
 go-aprs - APRS library for Golang
 ======
 
+# Info
+
+This is a forked and modified version. For original see https://github.com/dustin/go-aprs
 
 # Installation
 
 ```shell
-go get github.com/dustin/go-aprs
+go get github.com/tb0hdan/go-aprs
 ```
 
 
@@ -26,7 +29,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/dustin/go-aprs/aprsis"
+    "github.com/tb0hdan/go-aprs/aprsis"
 )
 
 func main() {
@@ -60,7 +63,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/dustin/go-aprs/aprsis"
+    "github.com/tb0hdan/go-aprs/aprsis"
 )
 
 func main() {

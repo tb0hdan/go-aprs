@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/dustin/go-aprs"
-	"github.com/dustin/go-aprs/ax25"
+	"github.com/tb0hdan/go-aprs"
+	"github.com/tb0hdan/go-aprs/ax25"
 )
 
 func init() {

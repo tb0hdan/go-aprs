@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dustin/go-aprs"
+	"github.com/tb0hdan/go-aprs"
 )
 
 func TestUnreasonablySmall(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/textproto"
 
-	"github.com/dustin/go-aprs"
+	"github.com/tb0hdan/go-aprs"
 )
 
 var errEmptyMsg = errors.New("empty message")

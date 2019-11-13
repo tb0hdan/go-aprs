@@ -6,7 +6,7 @@ import (
 	"math"
 	"net"
 
-	"github.com/dustin/go-aprs"
+	"github.com/tb0hdan/go-aprs"
 	"github.com/dustin/go-broadcast"
 )
 

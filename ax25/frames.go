@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dustin/go-aprs"
+	"github.com/tb0hdan/go-aprs"
 )
 
 const reasonableSize = 14

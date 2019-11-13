@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dustin/go-aprs"
-	"github.com/dustin/go-aprs/aprsis"
-	"github.com/dustin/go-aprs/ax25"
+	"github.com/tb0hdan/go-aprs"
+	"github.com/tb0hdan/go-aprs/aprsis"
+	"github.com/tb0hdan/go-aprs/ax25"
 	"github.com/dustin/go-broadcast"
 	"github.com/dustin/go-rs232"
 )
