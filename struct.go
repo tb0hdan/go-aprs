@@ -18,6 +18,6 @@ func (b *Body) String() string {
 }
 
 // Info - Returns aprs.Info type for use with APRS frame body
-func (b *Body) Info() aprs.Info {
-	return aprs.Info(b.String())
+func (b *Body) Info() Info {
+	return Info(b.String())
 }
