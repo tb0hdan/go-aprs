@@ -2,7 +2,6 @@ package aprs
 
 import (
 	"fmt"
-	"github.com/tb0hdan/go-aprs"
 )
 
 // APRS body used for crafting APRS frame
