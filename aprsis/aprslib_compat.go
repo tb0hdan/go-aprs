@@ -1,11 +1,9 @@
-package aprs
+package aprsis
 
 import (
 	"encoding/json"
 	"fmt"
 	"log"
-
-	"github.com/tb0hdan/go-aprs/aprsis"
 )
 
 type APRSParsed struct {
@@ -27,7 +25,7 @@ type APRSParsed struct {
 
 // python aprslib compatibility
 func APRSROConsumer(callback func(packet string)) {
-	client, err := aprsis.NewROAPRS()
+	client, err := NewROAPRS()
 
 	if err != nil {
 		log.Fatal("login", err)
